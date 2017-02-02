@@ -34,15 +34,15 @@ vector<int> findPrimes(int start, int end){
 
 int main() {
   const int THREAD_COUNT = 11;
-  const int startNumb = 1;
-  const int endNumb = 1000;
-  const int step = floor((endNumb - startNumb)/THREAD_COUNT);
+    const int START_NUMB = 1;
+  const int END_NUMB = 1000;
+  const int STEP = floor((END_NUMB - START_NUMB)/THREAD_COUNT);
   vector<thread> threads;
   int threadEndNumb;
 
-  for(int i = startNumb; i <= endNumb; i += step){
-    threadEndNumb = i + step;
-    if(threadEndNumb > endNumb) threadEndNumb = endNumb;
+  for(int i = START_NUMB; i <= END_NUMB; i += STEP){
+    threadEndNumb = i + STEP;
+    if(threadEndNumb > END_NUMB) threadEndNumb = END_NUMB;
     threads.push_back(thread([i, threadEndNumb] (){
       findPrimes(i, threadEndNumb);
     }));
