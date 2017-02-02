@@ -1,0 +1,3 @@
+/home/even/Documents/Nettverksprogrammering/Threads1/build/debug/CMakeFiles/rebuild_cache.dir
+/home/even/Documents/Nettverksprogrammering/Threads1/build/debug/CMakeFiles/edit_cache.dir
+/home/even/Documents/Nettverksprogrammering/Threads1/build/debug/CMakeFiles/Threads1.dir

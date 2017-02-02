@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++1y -pthread -Wall -Wextra -Wno-unused-parameter -g   CMakeFiles/Threads1.dir/main.cpp.o  -o Threads1 -rdynamic 

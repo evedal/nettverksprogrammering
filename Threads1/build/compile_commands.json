@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/even/Documents/Nettverksprogrammering/Threads1/build",
+  "command": "/usr/bin/c++      -std=c++1y -pthread -Wall -Wextra -Wno-unused-parameter   -o CMakeFiles/Threads1.dir/main.cpp.o -c /home/even/Documents/Nettverksprogrammering/Threads1/main.cpp",
+  "file": "/home/even/Documents/Nettverksprogrammering/Threads1/main.cpp"
+}
+]

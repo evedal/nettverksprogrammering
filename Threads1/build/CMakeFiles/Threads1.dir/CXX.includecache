@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/even/Documents/Nettverksprogrammering/Threads1/main.cpp
+iostream
+-
+vector
+-
+math.h
+-
+thread
+-
+mutex
+-
+
